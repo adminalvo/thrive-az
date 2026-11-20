@@ -1,0 +1,4 @@
+.env
+public/crm/.env
+config/config.php
+database/db.sqlite

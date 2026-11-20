@@ -1,0 +1,9 @@
+CRM Server successfully listening on: 3005
+node:internal/deps/undici/undici:5560
+      return await WebAssembly.instantiate(mod, {
+                               ^
+
+RangeError: WebAssembly.instantiate(): Out of memory: Cannot allocate Wasm memory for new instance
+    at lazyllhttp (node:internal/deps/undici/undici:5560:32)
+
+Node.js v20.17.0
